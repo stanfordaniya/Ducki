@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40814AFA2DFE0F4A00B38019 /* Duck Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 40814AF92DFE0F4A00B38019 /* Duck Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40814AFB2DFE0F4A00B38019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40814AED2DFE0F4900B38019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40814AF82DFE0F4A00B38019;
+			remoteInfo = "Duck Watch App";
+		};
+		40814B092DFE0F4C00B38019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40814AED2DFE0F4900B38019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40814AF82DFE0F4A00B38019;
+			remoteInfo = "Duck Watch App";
+		};
+		40814B132DFE0F4D00B38019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40814AED2DFE0F4900B38019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40814AF82DFE0F4A00B38019;
+			remoteInfo = "Duck Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40814B1F2DFE0F4D00B38019 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				40814AFA2DFE0F4A00B38019 /* Duck Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		40814AF32DFE0F4A00B38019 /* Duck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40814AF92DFE0F4A00B38019 /* Duck Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duck Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40814B082DFE0F4C00B38019 /* Duck Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duck Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40814B122DFE0F4D00B38019 /* Duck Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duck Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		40814AFD2DFE0F4A00B38019 /* Duck Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Duck Watch App";
+			sourceTree = "<group>";
+		};
+		40814B0B2DFE0F4C00B38019 /* Duck Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Duck Watch AppTests";
+			sourceTree = "<group>";
+		};
+		40814B152DFE0F4D00B38019 /* Duck Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Duck Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40814AF62DFE0F4A00B38019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814B052DFE0F4C00B38019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814B0F2DFE0F4D00B38019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40814AEC2DFE0F4900B38019 = {
+			isa = PBXGroup;
+			children = (
+				40814AFD2DFE0F4A00B38019 /* Duck Watch App */,
+				40814B0B2DFE0F4C00B38019 /* Duck Watch AppTests */,
+				40814B152DFE0F4D00B38019 /* Duck Watch AppUITests */,
+				40814AF42DFE0F4A00B38019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40814AF42DFE0F4A00B38019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40814AF32DFE0F4A00B38019 /* Duck.app */,
+				40814AF92DFE0F4A00B38019 /* Duck Watch App.app */,
+				40814B082DFE0F4C00B38019 /* Duck Watch AppTests.xctest */,
+				40814B122DFE0F4D00B38019 /* Duck Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40814AF22DFE0F4A00B38019 /* Duck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40814B202DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck" */;
+			buildPhases = (
+				40814AF12DFE0F4A00B38019 /* Resources */,
+				40814B1F2DFE0F4D00B38019 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40814AFC2DFE0F4A00B38019 /* PBXTargetDependency */,
+			);
+			name = Duck;
+			packageProductDependencies = (
+			);
+			productName = Duck;
+			productReference = 40814AF32DFE0F4A00B38019 /* Duck.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		40814AF82DFE0F4A00B38019 /* Duck Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40814B1C2DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck Watch App" */;
+			buildPhases = (
+				40814AF52DFE0F4A00B38019 /* Sources */,
+				40814AF62DFE0F4A00B38019 /* Frameworks */,
+				40814AF72DFE0F4A00B38019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				40814AFD2DFE0F4A00B38019 /* Duck Watch App */,
+			);
+			name = "Duck Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Duck Watch App";
+			productReference = 40814AF92DFE0F4A00B38019 /* Duck Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40814B072DFE0F4C00B38019 /* Duck Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40814B232DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck Watch AppTests" */;
+			buildPhases = (
+				40814B042DFE0F4C00B38019 /* Sources */,
+				40814B052DFE0F4C00B38019 /* Frameworks */,
+				40814B062DFE0F4C00B38019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40814B0A2DFE0F4C00B38019 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40814B0B2DFE0F4C00B38019 /* Duck Watch AppTests */,
+			);
+			name = "Duck Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Duck Watch AppTests";
+			productReference = 40814B082DFE0F4C00B38019 /* Duck Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40814B112DFE0F4D00B38019 /* Duck Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40814B262DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck Watch AppUITests" */;
+			buildPhases = (
+				40814B0E2DFE0F4D00B38019 /* Sources */,
+				40814B0F2DFE0F4D00B38019 /* Frameworks */,
+				40814B102DFE0F4D00B38019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40814B142DFE0F4D00B38019 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40814B152DFE0F4D00B38019 /* Duck Watch AppUITests */,
+			);
+			name = "Duck Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Duck Watch AppUITests";
+			productReference = 40814B122DFE0F4D00B38019 /* Duck Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40814AED2DFE0F4900B38019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					40814AF22DFE0F4A00B38019 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					40814AF82DFE0F4A00B38019 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					40814B072DFE0F4C00B38019 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 40814AF82DFE0F4A00B38019;
+					};
+					40814B112DFE0F4D00B38019 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 40814AF82DFE0F4A00B38019;
+					};
+				};
+			};
+			buildConfigurationList = 40814AF02DFE0F4900B38019 /* Build configuration list for PBXProject "Duck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40814AEC2DFE0F4900B38019;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 40814AF42DFE0F4A00B38019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40814AF22DFE0F4A00B38019 /* Duck */,
+				40814AF82DFE0F4A00B38019 /* Duck Watch App */,
+				40814B072DFE0F4C00B38019 /* Duck Watch AppTests */,
+				40814B112DFE0F4D00B38019 /* Duck Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40814AF12DFE0F4A00B38019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814AF72DFE0F4A00B38019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814B062DFE0F4C00B38019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814B102DFE0F4D00B38019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40814AF52DFE0F4A00B38019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814B042DFE0F4C00B38019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40814B0E2DFE0F4D00B38019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40814AFC2DFE0F4A00B38019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40814AF82DFE0F4A00B38019 /* Duck Watch App */;
+			targetProxy = 40814AFB2DFE0F4A00B38019 /* PBXContainerItemProxy */;
+		};
+		40814B0A2DFE0F4C00B38019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40814AF82DFE0F4A00B38019 /* Duck Watch App */;
+			targetProxy = 40814B092DFE0F4C00B38019 /* PBXContainerItemProxy */;
+		};
+		40814B142DFE0F4D00B38019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40814AF82DFE0F4A00B38019 /* Duck Watch App */;
+			targetProxy = 40814B132DFE0F4D00B38019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40814B1A2DFE0F4D00B38019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40814B1B2DFE0F4D00B38019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		40814B1D2DFE0F4D00B38019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Duck;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obleek.Duck.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		40814B1E2DFE0F4D00B38019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Duck;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obleek.Duck.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		40814B212DFE0F4D00B38019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Duck;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obleek.Duck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40814B222DFE0F4D00B38019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Duck;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obleek.Duck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40814B242DFE0F4D00B38019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "obleek.Duck-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duck Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duck Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		40814B252DFE0F4D00B38019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "obleek.Duck-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duck Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duck Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		40814B272DFE0F4D00B38019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "obleek.Duck-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Duck Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		40814B282DFE0F4D00B38019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "obleek.Duck-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Duck Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40814AF02DFE0F4900B38019 /* Build configuration list for PBXProject "Duck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40814B1A2DFE0F4D00B38019 /* Debug */,
+				40814B1B2DFE0F4D00B38019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40814B1C2DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40814B1D2DFE0F4D00B38019 /* Debug */,
+				40814B1E2DFE0F4D00B38019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40814B202DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40814B212DFE0F4D00B38019 /* Debug */,
+				40814B222DFE0F4D00B38019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40814B232DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40814B242DFE0F4D00B38019 /* Debug */,
+				40814B252DFE0F4D00B38019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40814B262DFE0F4D00B38019 /* Build configuration list for PBXNativeTarget "Duck Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40814B272DFE0F4D00B38019 /* Debug */,
+				40814B282DFE0F4D00B38019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40814AED2DFE0F4900B38019 /* Project object */;
+}
