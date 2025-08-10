@@ -11,15 +11,15 @@ This repository serves as an archive of the project for reference and portfolio 
 
 ## 📷 Screenshots
 
-![Screenshot 1](photos/screen1.png)
-![Screenshot 2](photos/screen2.png)
-![Screenshot 3](photos/screen3.png)
-![Screenshot 4](photos/screen4.png)
-![Screenshot 5](photos/screen5.png)
-![Screenshot 6](photos/screen6.png)
-![Screenshot 7](photos/screen7.png)
-![Screenshot 8](photos/screen8.png)
-![Screenshot 9](photos/screen9.png)
+<img src="photos/screen1.png" width="250"/>
+<img src="photos/screen2.png" width="250"/>
+<img src="photos/screen3.png" width="250"/>
+<img src="photos/screen4.png" width="250"/>
+<img src="photos/screen5.png" width="250"/>
+<img src="photos/screen6.png" width="250"/>
+<img src="photos/screen7.png" width="250"/>
+<img src="photos/screen8.png" width="250"/>
+<img src="photos/screen9.png" width="250"/>
 
 ---
 
