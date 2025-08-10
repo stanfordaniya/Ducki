@@ -11,9 +11,15 @@ This repository serves as an archive of the project for reference and portfolio 
 
 ## 📷 Screenshots
 
-| Home Screen | Feeding Menu | Mini-Games |
-|-------------|--------------|------------|
-| ![Home Screen](photos/home.png) | ![Feeding Menu](photos/feeding.png) | ![Mini-Games](photos/minigames.png) |
+![Screenshot 1](photos/screen1.png)
+![Screenshot 2](photos/screen2.png)
+![Screenshot 3](photos/screen3.png)
+![Screenshot 4](photos/screen4.png)
+![Screenshot 5](photos/screen5.png)
+![Screenshot 6](photos/screen6.png)
+![Screenshot 7](photos/screen7.png)
+![Screenshot 8](photos/screen8.png)
+![Screenshot 9](photos/screen9.png)
 
 ---
 
